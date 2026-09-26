@@ -1,0 +1,17 @@
+{
+  "title": "茶茶捕捉 - GMod 面部与动作捕捉",
+  "type": "tool",
+  "tags": ["fun", "roleplay"],
+  "ignore": [
+    ".git/*",
+    ".DS_Store",
+    "**/.DS_Store",
+    "server/.venv/*",
+    "server/.venv-player/*",
+    "server/__pycache__/*",
+    "**/__pycache__/*",
+    "**/.DS_Store",
+    "*.pyc",
+    "*.md"
+  ]
+}

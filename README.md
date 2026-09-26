@@ -15,7 +15,7 @@
 1. 安装 64 位 Python 3.10（最稳定）。
 2. 将文件`gmcl_gwsockets_win64.dll`放入：
 
-`GarrysMod\garrysmod\lua\bin `
+   `GarrysMod\garrysmod\lua\bin `
 
 3. 将整个 `ChachaCapture` 文件夹放入：
 

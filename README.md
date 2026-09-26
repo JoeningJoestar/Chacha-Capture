@@ -13,6 +13,9 @@
 前提提要：你需要一台 64 位的 Windows 电脑，并预留至少 350mb 的存储空间。
 
 1. 安装 64 位 Python 3.10（最稳定）。
+   下载地址：
+   `https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe`
+
 2. 将文件`gmcl_gwsockets_win64.dll`放入：
 
    `GarrysMod\garrysmod\lua\bin `

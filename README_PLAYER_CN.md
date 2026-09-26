@@ -7,10 +7,8 @@
 ## 已实现
 
 - `LocalPlayer()` 自动成为面部和姿态捕捉目标。
-- 头部、颈部、腰部/骨盆、脊柱、双锁骨、左右上臂、前臂和手腕标准 ValveBiped 骨骼驱动。
 - 兼容原版 `gmod_facetracker.py` 的 53 项有序数组协议。
 - 兼容外部追踪器使用的键名 JSON 协议。
-- 自动在 `facs`、`hwm`、`arkit` 中选择与玩家模型匹配度最高的预设。
 - 玩家切换模型后自动重新匹配 Flex。
 - PAC3 头部目标模式：可扫描并驱动靠近玩家头部、拥有 Flex 的 PAC3 客户端模型，而不是被隐藏的原始玩家模型。
 - PAC3 手动绑定：可在 Q 菜单中选择具体模型实体和头部骨骼，避免同一 PAC3 Outfit 有多个模型时自动选错。
@@ -23,20 +21,19 @@
 
 ### 1. 放置插件
 
-整个 `face-tracker` 文件夹应放到：
+整个 `ChachaCapture` 文件夹应放到：
 
 ```text
-...\Steam\steamapps\common\GarrysMod\garrysmod\addons\face-tracker
+...\Steam\steamapps\common\GarrysMod\garrysmod\addons
 ```
 
-确认目录层级中能直接看到 `lua` 文件夹；不要变成
-`addons\face-tracker\face-tracker\lua`。安装后完全退出并重启 GMod，控制台应出现：
+安装后完全退出并重启 GMod，控制台应出现：
 
 ```text
 茶茶捕捉已加载（面部 + 头部；PAC3 兼容优化）
 ```
 
-你之前安装的客户端版 GWSockets 仍然需要保留。其 DLL 名称应为
+GWSocketsd DLL 名称应为
 `gmcl_gwsockets_win64.dll`，放在 `garrysmod/lua/bin/`，并使用 64 位 Garry's Mod。
 
 ### 2. 安装 Python 3.10（推荐）
@@ -102,12 +99,6 @@ server\list_cameras.bat
 ```
 
 脚本会列出 OpenCV 能看到的摄像头编号。把 Iriun 对应的编号填入启动参数，例如：
-
-```bat
-start_player_tracker.bat --camera 1
-```
-
-仅头部模式同样支持：
 
 ```bat
 start_player_tracker.bat --camera 1

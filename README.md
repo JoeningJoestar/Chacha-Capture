@@ -13,20 +13,21 @@
 前提提要：你需要一台 64 位的 Windows 电脑，并预留至少 350mb 的存储空间。
 
 1. 安装 64 位 Python 3.10（最稳定）。
+
    下载地址：
    `https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe`
 
-2. 将文件`gmcl_gwsockets_win64.dll`放入：
+3. 将文件`gmcl_gwsockets_win64.dll`放入：
 
    `GarrysMod\garrysmod\lua\bin `
 
-3. 将整个 `ChachaCapture` 文件夹放入：
+4. 将整个 `ChachaCapture` 文件夹放入：
 
    `GarrysMod/garrysmod/addons`
 
-4. 打开 Chachacapture，打开 server 文件夹，双击`install_player_windows.bat`，程序会开始自行安装所有所需的脚本，等到所有脚本安装完毕，按任意键关闭此窗口。
-5. 确保你的 Windows 设备有摄像采集设备（没有实体摄像头时，可以使用 Iriun Webcam 等虚拟摄像头。运行 `server/list_cameras.bat` 查看编号，再用 `start_player_tracker.bat --camera 编号` 启动）。之后双击 server 文件夹中的`start_player_tracker.bat`，你的摄像头会被启用，并出现一个 640x480 的视频采集窗口。（请放心，我们不会收集您的个人信息，一切都在本地运行）。
-6. 打开x64版本的 Garry's Mod 即可开始使用该插件。
+5. 打开 Chachacapture，打开 server 文件夹，双击`install_player_windows.bat`，程序会开始自行安装所有所需的脚本，等到所有脚本安装完毕，按任意键关闭此窗口。
+6. 确保你的 Windows 设备有摄像采集设备（没有实体摄像头时，可以使用 Iriun Webcam 等虚拟摄像头。运行 `server/list_cameras.bat` 查看编号，再用 `start_player_tracker.bat --camera 编号` 启动）。之后双击 server 文件夹中的`start_player_tracker.bat`，你的摄像头会被启用，并出现一个 640x480 的视频采集窗口。（请放心，我们不会收集您的个人信息，一切都在本地运行）。
+7. 打开x64版本的 Garry's Mod 即可开始使用该插件。
 
 详细安装、摄像头和多人同步说明见 [README_PLAYER_CN.md](README_PLAYER_CN.md)。骨骼映射说明见 [README_POSE_CN.md](README_POSE_CN.md)，自定义 Flex 预设见 [README_CUSTOM_PRESETS_CN.md](README_CUSTOM_PRESETS_CN.md)。
 

@@ -1,0 +1,307 @@
+{
+	"mappings": {
+		"blink": [
+			{
+				"channel": "eyeBlinkLeft",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.4
+			},
+			{
+				"channel": "eyeBlinkRight",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.4
+			}
+		],
+		"eyebrow_down": [
+			{
+				"channel": "browDownLeft",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.2
+			},
+			{
+				"channel": "browDownRight",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.2
+			}
+		],
+		"eyebrow_sad": [
+			{
+				"channel": "browInnerUp",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.45
+			}
+		],
+		"eye_blank": [
+			{
+				"channel": "eyeSquintRight",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.125
+			},
+			{
+				"channel": "eyeSquintLeft",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.125
+			},
+			{
+				"channel": "eyeLookDownRight",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.1
+			},
+			{
+				"channel": "eyeLookDownLeft",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.1
+			}
+		],
+		"eyebrow_angry": [
+			{
+				"channel": "browInnerUp",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.3
+			},
+			{
+				"channel": "browDownLeft",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.3
+			},
+			{
+				"channel": "browDownRight",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.3
+			}
+		],
+		"eyebrow_><": [
+			{
+				"channel": "browDownLeft",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.15
+			},
+			{
+				"channel": "browDownRight",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.15
+			}
+		],
+		"mouth_a": [
+			{
+				"channel": "mouthUpperUpLeft",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.075
+			},
+			{
+				"channel": "jawOpen",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.3
+			},
+			{
+				"channel": "mouthUpperUpRight",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.075
+			}
+		],
+		"eyebrow_up": [
+			{
+				"channel": "browOuterUpLeft",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.4
+			},
+			{
+				"channel": "browOuterUpRight",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.4
+			}
+		],
+		"eye_down": [
+			{
+				"channel": "eyeLookDownRight",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.175
+			},
+			{
+				"channel": "eyeLookDownLeft",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.175
+			}
+		],
+		"eye_left": [
+			{
+				"channel": "eyeLookOutLeft",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1.2,
+				"weight": 0.7
+			},
+			{
+				"channel": "eyeLookInRight",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1.2,
+				"weight": 0.7
+			}
+		],
+		"mouth_sad": [
+			{
+				"channel": "mouthSmileLeft",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 0.7,
+				"weight": -0.4
+			},
+			{
+				"channel": "mouthSmileRight",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 0.7,
+				"weight": -0.4
+			}
+		],
+		"mouth_e": [
+			{
+				"channel": "mouthStretchRight",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.15
+			},
+			{
+				"channel": "mouthStretchLeft",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.15
+			},
+			{
+				"channel": "jawOpen",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.1
+			}
+		],
+		"jawdrop": [
+			{
+				"channel": "jawOpen",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.3
+			}
+		],
+		"eye_up": [
+			{
+				"channel": "eyeLookUpLeft",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.3
+			},
+			{
+				"channel": "eyeLookUpRight",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.3
+			}
+		],
+		"mouth_o": [
+			{
+				"channel": "jawOpen",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.2
+			},
+			{
+				"channel": "mouthFunnel",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.35
+			}
+		],
+		"eye_right": [
+			{
+				"channel": "eyeLookOutRight",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.7
+			},
+			{
+				"channel": "eyeLookInLeft",
+				"reverse": false,
+				"threshold": 0,
+				"multiplier": 1,
+				"weight": 0.7
+			}
+		]
+	},
+	"eyeExpressions": {
+		"y": "0.5",
+		"x": "0.5",
+		"s": 0
+	},
+	"expressions": {
+		"eye_right": "eyeLookOutRight*0.7+eyeLookInLeft*0.7",
+		"eyebrow_down": "browDownLeft*0.2+browDownRight*0.2",
+		"eyebrow_sad": "browInnerUp*0.45",
+		"eye_blank": "eyeSquintRight*0.125+eyeSquintLeft*0.125+eyeLookDownRight*0.1+eyeLookDownLeft*0.1",
+		"eyebrow_angry": "browInnerUp*0.3+browDownLeft*0.3+browDownRight*0.3",
+		"eyebrow_><": "browDownLeft*0.15+browDownRight*0.15",
+		"mouth_o": "jawOpen*0.2+mouthFunnel*0.35",
+		"eyebrow_up": "browOuterUpLeft*0.4+browOuterUpRight*0.4",
+		"eye_up": "eyeLookUpLeft*0.3+eyeLookUpRight*0.3",
+		"mouth_sad": "mouthSmileLeft*-0.28+mouthSmileRight*-0.28",
+		"eye_left": "eyeLookOutLeft*0.84+eyeLookInRight*0.84",
+		"mouth_e": "mouthStretchRight*0.15+mouthStretchLeft*0.15+jawOpen*0.1",
+		"jawdrop": "jawOpen*0.3",
+		"eye_down": "eyeLookDownRight*0.175+eyeLookDownLeft*0.175",
+		"mouth_a": "mouthUpperUpLeft*0.075+jawOpen*0.3+mouthUpperUpRight*0.075",
+		"blink": "eyeBlinkLeft*0.4+eyeBlinkRight*0.4"
+	},
+	"model": "models/edward/anon/pm/anon_pm.mdl",
+	"name": "anon",
+	"values": []
+}

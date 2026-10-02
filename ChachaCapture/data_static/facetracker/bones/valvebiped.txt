@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "displayName": "ValveBiped Standard",
+  "bones": {
+    "head": ["ValveBiped.Bip01_Head1", "ValveBiped.Bip01_Head"],
+    "neck": ["ValveBiped.Bip01_Neck1", "ValveBiped.Bip01_Neck"],
+    "waist": ["ValveBiped.Bip01_Spine", "ValveBiped.Bip01_Pelvis"],
+    "spine": ["ValveBiped.Bip01_Spine2", "ValveBiped.Bip01_Spine4", "ValveBiped.Bip01_Spine1"],
+    "left_clavicle": "ValveBiped.Bip01_L_Clavicle",
+    "left_upper_arm": "ValveBiped.Bip01_L_UpperArm",
+    "left_forearm": "ValveBiped.Bip01_L_Forearm",
+    "left_wrist": ["ValveBiped.Bip01_L_Hand", "ValveBiped.Bip01_L_Wrist"],
+    "right_clavicle": "ValveBiped.Bip01_R_Clavicle",
+    "right_upper_arm": "ValveBiped.Bip01_R_UpperArm",
+    "right_forearm": "ValveBiped.Bip01_R_Forearm",
+    "right_wrist": ["ValveBiped.Bip01_R_Hand", "ValveBiped.Bip01_R_Wrist"]
+  }
+}
